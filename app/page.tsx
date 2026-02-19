@@ -139,7 +139,7 @@ export default function Home() {
 
           <div className="cell">Ramp time</div>
           <div className="cell">3 – 6 months</div>
-          <div className="cell">1 week</div>
+          <div className="cell">3 weeks</div>
 
           <div className="cell">Emails per day</div>
           <div className="cell">50 – 80</div>
@@ -180,7 +180,7 @@ export default function Home() {
           would work for your business.
         </p>
         <a
-          href="https://calendly.com/YOUR-LINK"
+          href="https://calendar.app.google/FByi8pP5YdoPbxu86"
           target="_blank"
           rel="noopener noreferrer"
         >
