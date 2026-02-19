@@ -467,8 +467,7 @@ footer {
 
   .compare { padding: 3rem 1rem; }
   .compare-table { grid-template-columns: 1fr 1fr; }
-  .compare-table .col-header:first-child { display: none; }
-  .compare-table .cell:nth-child(3n+1) { display: none; }
+  .compare-table .cell-label { display: none; }
   .compare-table .cell, .compare-table .col-header { padding: 1rem 0.8rem; font-size: 0.85rem; }
 
   .proof { padding: 3rem 1rem; }

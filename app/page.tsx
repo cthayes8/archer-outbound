@@ -129,31 +129,31 @@ export default function Home() {
         <div className="section-label">The Math</div>
         <h2>Replace the grind, keep the pipeline</h2>
         <div className="compare-table">
-          <div className="col-header">{"\u00A0"}</div>
+          <div className="col-header cell-label">{"\u00A0"}</div>
           <div className="col-header">Traditional SDR</div>
           <div className="col-header">Archer Outbound</div>
 
-          <div className="cell">Monthly cost</div>
+          <div className="cell cell-label">Monthly cost</div>
           <div className="cell">$5,000 – $7,000+</div>
           <div className="cell">From $3,000/mo</div>
 
-          <div className="cell">Ramp time</div>
+          <div className="cell cell-label">Ramp time</div>
           <div className="cell">3 – 6 months</div>
           <div className="cell">3 weeks</div>
 
-          <div className="cell">Emails per day</div>
+          <div className="cell cell-label">Emails per day</div>
           <div className="cell">50 – 80</div>
           <div className="cell">500+</div>
 
-          <div className="cell">Personalization</div>
+          <div className="cell cell-label">Personalization</div>
           <div className="cell">Limited by time</div>
           <div className="cell">Every single message</div>
 
-          <div className="cell">Availability</div>
+          <div className="cell cell-label">Availability</div>
           <div className="cell">Business hours</div>
           <div className="cell">24/7/365</div>
 
-          <div className="cell">Turnover risk</div>
+          <div className="cell cell-label">Turnover risk</div>
           <div className="cell">High</div>
           <div className="cell">Zero</div>
         </div>
