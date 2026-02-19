@@ -35,9 +35,8 @@ export default function Home() {
           on <em>autopilot</em>
         </h1>
         <p className="hero-sub">
-          We deploy AI agents that find your ideal prospects, write personalized
-          outreach, and book qualified meetings — so your team can focus on
-          closing.
+          We deploy AI agents that find your ideal prospects, craft personalized
+          outreach, and book qualified meetings — so your team can focus on closing.
         </p>
         <a href="#book" className="hero-cta">
           See How It Works

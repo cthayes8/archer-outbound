@@ -153,6 +153,7 @@ h1 em {
   line-height: 1.7;
   margin-bottom: 2.5rem;
   animation: fadeUp 0.8s 0.2s ease both;
+  text-wrap: pretty;
 }
 
 .hero-cta {
@@ -452,7 +453,7 @@ footer {
   nav { padding: 1rem; }
   nav a.cta-nav { padding: 0.5rem 1rem; font-size: 0.8rem; }
 
-  .hero { min-height: auto; padding: 6rem 1rem 3rem; }
+  .hero { min-height: 100svh; padding: 8rem 1rem 4rem; }
   .hero::before { width: 350px; height: 350px; }
   .badge { font-size: 0.7rem; margin-bottom: 1.5rem; }
   .hero-sub { font-size: 1rem; margin-bottom: 2rem; }
