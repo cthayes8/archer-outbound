@@ -200,7 +200,7 @@ export default function Home() {
         </a>
       </section>
 
-      <footer>© 2025 Archer Outbound. All rights reserved.</footer>
+      <footer>© 2026 Archer Outbound. All rights reserved.</footer>
     </>
   );
 }
