@@ -3,7 +3,7 @@ export default function Home() {
     <>
       {/* NAV */}
       <nav>
-        <div className="logo">
+        <a href="#top" className="logo">
           <div className="logo-icon">
             <svg
               viewBox="0 0 24 24"
@@ -17,14 +17,14 @@ export default function Home() {
             </svg>
           </div>
           Archer Outbound
-        </div>
+        </a>
         <a href="#book" className="cta-nav">
           Book a Demo
         </a>
       </nav>
 
       {/* HERO */}
-      <section className="hero">
+      <section className="hero" id="top">
         <div className="badge">
           <span className="badge-dot"></span>
           AI-Powered Outbound Sales
@@ -133,28 +133,28 @@ export default function Home() {
           <div className="col-header">Archer Outbound</div>
 
           <div className="cell cell-label">Monthly cost</div>
-          <div className="cell">$5,000 – $7,000+</div>
-          <div className="cell">From $3,000/mo</div>
+          <div className="cell"><span className="mobile-label">Monthly cost</span>$5,000 – $7,000+</div>
+          <div className="cell"><span className="mobile-label">Monthly cost</span>From $3,000/mo</div>
 
           <div className="cell cell-label">Ramp time</div>
-          <div className="cell">3 – 6 months</div>
-          <div className="cell">3 weeks</div>
+          <div className="cell"><span className="mobile-label">Ramp time</span>3 – 6 months</div>
+          <div className="cell"><span className="mobile-label">Ramp time</span>3 weeks</div>
 
-          <div className="cell cell-label">Emails per day</div>
-          <div className="cell">50 – 80</div>
-          <div className="cell">500+</div>
+          <div className="cell cell-label">Meetings booked</div>
+          <div className="cell"><span className="mobile-label">Meetings booked</span>Depends on rep</div>
+          <div className="cell"><span className="mobile-label">Meetings booked</span>15+/month</div>
 
           <div className="cell cell-label">Personalization</div>
-          <div className="cell">Limited by time</div>
-          <div className="cell">Every single message</div>
+          <div className="cell"><span className="mobile-label">Personalization</span>Limited by time</div>
+          <div className="cell"><span className="mobile-label">Personalization</span>Every single message</div>
 
           <div className="cell cell-label">Availability</div>
-          <div className="cell">Business hours</div>
-          <div className="cell">24/7/365</div>
+          <div className="cell"><span className="mobile-label">Availability</span>Business hours</div>
+          <div className="cell"><span className="mobile-label">Availability</span>24/7/365</div>
 
           <div className="cell cell-label">Turnover risk</div>
-          <div className="cell">High</div>
-          <div className="cell">Zero</div>
+          <div className="cell"><span className="mobile-label">Turnover risk</span>High</div>
+          <div className="cell"><span className="mobile-label">Turnover risk</span>Zero</div>
         </div>
       </section>
 
