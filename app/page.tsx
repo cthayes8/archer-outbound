@@ -175,7 +175,7 @@ export default function Home() {
           your <em>calendar?</em>
         </h2>
         <p>
-          Book a 15-minute demo. We&apos;ll show you exactly how our AI agents
+          Book a 30-minute demo. We&apos;ll show you exactly how our AI agents
           would work for your business.
         </p>
         <a
