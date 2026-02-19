@@ -434,10 +434,46 @@ footer {
 }
 
 /* --- RESPONSIVE --- */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .hero { padding: 7rem 1.5rem 3rem; }
+  .hero::before { width: 500px; height: 500px; }
+  .pain { padding: 4rem 1.5rem; }
+  .how { padding: 4rem 1.5rem; }
+  .compare { padding: 4rem 1.5rem; }
+  .proof { padding: 4rem 1.5rem; }
+  .final-cta { padding: 5rem 1.5rem; }
+  .final-cta::before { width: 400px; height: 400px; }
+}
+
+/* Mobile */
 @media (max-width: 640px) {
   nav { padding: 1rem; }
+  nav a.cta-nav { padding: 0.5rem 1rem; font-size: 0.8rem; }
+
+  .hero { min-height: auto; padding: 6rem 1rem 3rem; }
+  .hero::before { width: 350px; height: 350px; }
+  .badge { font-size: 0.7rem; margin-bottom: 1.5rem; }
+  .hero-sub { font-size: 1rem; margin-bottom: 2rem; }
+  .hero-cta { padding: 0.85rem 1.8rem; font-size: 0.9rem; }
+
+  .pain { padding: 3rem 1rem; }
   .pain-grid { grid-template-columns: 1fr; }
-  .compare-table { grid-template-columns: 1fr 1fr 1fr; font-size: 0.8rem; }
-  .compare-table .cell, .compare-table .col-header { padding: 1rem 0.8rem; }
-  .step { grid-template-columns: 40px 1fr; }
+  .pain-card { padding: 2rem 1.5rem; }
+
+  .how { padding: 3rem 1rem; }
+  .step { grid-template-columns: 40px 1fr; gap: 1rem; padding: 1.5rem 0; }
+
+  .compare { padding: 3rem 1rem; }
+  .compare-table { grid-template-columns: 1fr 1fr; }
+  .compare-table .col-header:first-child { display: none; }
+  .compare-table .cell:nth-child(3n+1) { display: none; }
+  .compare-table .cell, .compare-table .col-header { padding: 1rem 0.8rem; font-size: 0.85rem; }
+
+  .proof { padding: 3rem 1rem; }
+
+  .final-cta { padding: 4rem 1rem; }
+  .final-cta::before { width: 300px; height: 300px; }
+  .final-cta a { padding: 0.85rem 2rem; font-size: 0.95rem; }
 }
