@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
-import { DM_Sans, Instrument_Serif } from "next/font/google";
+import { DM_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const dmSans = DM_Sans({
   variable: "--font-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const instrumentSerif = Instrument_Serif({
+const playfairDisplay = Playfair_Display({
   variable: "--font-serif",
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400", "700"],
   style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
-  title: "Archer Outbound — AI-Powered Pipeline on Autopilot",
+  title: "Archer Outbound — AI Sales Agents Built Exclusively for MSPs",
   description:
-    "We deploy AI agents that find your ideal prospects, write personalized outreach, and book qualified meetings — so your team can focus on closing.",
+    "We build dedicated AI sales agents for managed service providers. Your agent finds prospects in your territory, sends personalized outreach, and books qualified meetings on your calendar.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${instrumentSerif.variable}`}>
+      <body className={`${dmSans.variable} ${playfairDisplay.variable}`}>
         {children}
       </body>
     </html>

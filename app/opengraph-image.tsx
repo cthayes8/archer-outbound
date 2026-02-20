@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Archer Outbound — AI-Powered Pipeline on Autopilot";
+export const alt = "Archer Outbound — AI Sales Agents Built Exclusively for MSPs";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -67,7 +67,7 @@ export default function OGImage() {
               color: "#888888",
             }}
           >
-            AI-Powered Pipeline on Autopilot
+            AI Sales Agents Built Exclusively for MSPs
           </div>
         </div>
       </div>
