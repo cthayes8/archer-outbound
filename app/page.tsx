@@ -38,9 +38,9 @@ export default function Home() {
           Built Exclusively for Managed Service Providers
         </div>
         <h1>
-          Your own AI agent
+          Your outbound sales
           <br />
-          that <em>sells for you</em>
+          on <em>autopilot</em>
         </h1>
         <p className="hero-sub">
           Stop paying for templated blogs nobody reads. Your AI agent finds the
