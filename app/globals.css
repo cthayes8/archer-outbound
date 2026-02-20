@@ -275,7 +275,19 @@ nav {
 }
 
 .problem-card:hover { border-color: var(--border-light); }
-.problem-card .icon { font-size: 1.5rem; margin-bottom: 1rem; display: block; }
+.problem-card .icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid rgba(200, 255, 60, 0.1);
+  border-radius: 8px;
+}
+.problem-card .icon svg { width: 18px; height: 18px; }
 .problem-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--white); margin-bottom: 0.4rem; line-height: 1.4; }
 .problem-card p { font-size: 0.85rem; color: var(--gray-400); line-height: 1.65; }
 
@@ -299,7 +311,19 @@ nav {
 }
 
 .agent-feat:hover { border-color: var(--border-light); }
-.agent-feat .feat-icon { font-size: 1.4rem; margin-bottom: 0.75rem; display: block; }
+.agent-feat .feat-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid rgba(200, 255, 60, 0.1);
+  border-radius: 8px;
+}
+.agent-feat .feat-icon svg { width: 18px; height: 18px; }
 .agent-feat h3 { font-size: 0.92rem; font-weight: 600; color: var(--white); margin-bottom: 0.35rem; }
 .agent-feat p { font-size: 0.83rem; color: var(--gray-400); line-height: 1.6; }
 
@@ -543,9 +567,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  color: var(--accent);
   flex-shrink: 0;
 }
+.ownership-points .op-icon svg { width: 18px; height: 18px; }
 
 .ownership-points h4 { font-size: 0.9rem; font-weight: 600; color: var(--white); margin-bottom: 0.15rem; }
 .ownership-points p { font-size: 0.82rem; color: var(--gray-400); line-height: 1.55; }

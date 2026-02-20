@@ -80,7 +80,9 @@ export default function Home() {
         </p>
         <div className="problem-grid">
           <div className="problem-card">
-            <span className="icon">💸</span>
+            <span className="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>
+            </span>
             <h3>$3–5K/month on marketing with zero meetings</h3>
             <p>
               Templated blog posts and recycled newsletters that every other MSP
@@ -88,7 +90,9 @@ export default function Home() {
             </p>
           </div>
           <div className="problem-card">
-            <span className="icon">⏰</span>
+            <span className="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+            </span>
             <h3>No time to prospect when you&apos;re running the business</h3>
             <p>
               Between tickets, projects, and managing your team, outbound selling
@@ -96,7 +100,9 @@ export default function Home() {
             </p>
           </div>
           <div className="problem-card">
-            <span className="icon">👻</span>
+            <span className="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><line x1="1" y1="1" x2="23" y2="23" /></svg>
+            </span>
             <h3>Your ideal clients don&apos;t know you exist</h3>
             <p>
               Hundreds of 50-200 person companies in your territory need managed
@@ -104,7 +110,9 @@ export default function Home() {
             </p>
           </div>
           <div className="problem-card">
-            <span className="icon">📋</span>
+            <span className="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" /></svg>
+            </span>
             <h3>DIY AI tools still need you to run them</h3>
             <p>
               You bought the software, watched the demos, and never had time to
@@ -131,7 +139,9 @@ export default function Home() {
         </div>
         <div className="agent-features">
           <div className="agent-feat">
-            <span className="feat-icon">🔍</span>
+            <span className="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+            </span>
             <h3>Researches your territory</h3>
             <p>
               Identifies companies in your area that match your ICP — right
@@ -139,7 +149,9 @@ export default function Home() {
             </p>
           </div>
           <div className="agent-feat">
-            <span className="feat-icon">✍️</span>
+            <span className="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z" /><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" /><path d="M2 2l7.586 7.586" /><circle cx="11" cy="11" r="2" /></svg>
+            </span>
             <h3>Writes like your best rep</h3>
             <p>
               Every email and LinkedIn message references real context about the
@@ -148,7 +160,9 @@ export default function Home() {
             </p>
           </div>
           <div className="agent-feat">
-            <span className="feat-icon">🔄</span>
+            <span className="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="23 4 23 10 17 10" /><polyline points="1 20 1 14 7 14" /><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" /></svg>
+            </span>
             <h3>Handles the follow-up</h3>
             <p>
               Multi-touch sequences, reply handling, and objection management —
@@ -156,7 +170,9 @@ export default function Home() {
             </p>
           </div>
           <div className="agent-feat">
-            <span className="feat-icon">📅</span>
+            <span className="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
+            </span>
             <h3>Books on your calendar</h3>
             <p>
               Qualified meetings with decision-makers appear on your calendar.
@@ -164,7 +180,9 @@ export default function Home() {
             </p>
           </div>
           <div className="agent-feat">
-            <span className="feat-icon">📊</span>
+            <span className="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="20" x2="18" y2="10" /><line x1="12" y1="20" x2="12" y2="4" /><line x1="6" y1="20" x2="6" y2="14" /></svg>
+            </span>
             <h3>Reports what&apos;s working</h3>
             <p>
               See exactly which messages convert, which prospects engage, and how
@@ -172,7 +190,9 @@ export default function Home() {
             </p>
           </div>
           <div className="agent-feat">
-            <span className="feat-icon">🧠</span>
+            <span className="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>
+            </span>
             <h3>Gets smarter over time</h3>
             <p>
               Your agent learns which messaging, industries, and company profiles
@@ -397,7 +417,9 @@ export default function Home() {
             </p>
             <ul className="ownership-points">
               <li>
-                <div className="op-icon">🔒</div>
+                <div className="op-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg>
+                </div>
                 <div>
                   <h4>Fully isolated infrastructure</h4>
                   <p>
@@ -407,7 +429,9 @@ export default function Home() {
                 </div>
               </li>
               <li>
-                <div className="op-icon">🎯</div>
+                <div className="op-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg>
+                </div>
                 <div>
                   <h4>Built for your market</h4>
                   <p>
@@ -417,7 +441,9 @@ export default function Home() {
                 </div>
               </li>
               <li>
-                <div className="op-icon">🛡️</div>
+                <div className="op-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
+                </div>
                 <div>
                   <h4>Lightweight integration</h4>
                   <p>
@@ -428,7 +454,9 @@ export default function Home() {
                 </div>
               </li>
               <li>
-                <div className="op-icon">📈</div>
+                <div className="op-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" /><polyline points="17 6 23 6 23 12" /></svg>
+                </div>
                 <div>
                   <h4>Compounds over time</h4>
                   <p>
