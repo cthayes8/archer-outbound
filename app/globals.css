@@ -382,7 +382,7 @@ nav {
   color: var(--gray-400);
 }
 
-.compare-table .ch:last-child { background: var(--accent-dim); color: var(--accent); }
+.compare-table .ch-highlight { background: var(--accent-dim); color: var(--accent); }
 
 .compare-table .c {
   padding: 0.9rem 0.85rem;
@@ -391,13 +391,16 @@ nav {
   color: var(--gray-400);
 }
 
-.compare-table .c:nth-child(5n) {
+.compare-table .c-highlight {
   background: var(--accent-dim);
   color: var(--gray-100);
   font-weight: 500;
 }
 
-.compare-table .c:nth-last-child(-n+5) { border-bottom: none; }
+.compare-table .c-last-row { border-bottom: none !important; }
+
+/* Mobile "Others" column — hidden on desktop */
+.ch-others, .c-others { display: none; }
 
 /* ========== PRICING ========== */
 .pricing { padding: 7rem 2rem; max-width: 640px; margin: 0 auto; text-align: center; }
@@ -683,15 +686,44 @@ footer {
 
 /* ========== RESPONSIVE ========== */
 @media (max-width: 768px) {
+  /* Nav */
   nav { padding: 0.9rem 1.25rem; }
   .nav-links a:not(.nav-cta) { display: none; }
   .logo-badge { display: none; }
+
+  /* Section padding */
+  .problem { padding: 4rem 1.5rem; }
+  .agent-section { padding: 4rem 1.5rem; }
+  .how { padding: 4rem 1.5rem; }
+  .compare { padding: 4rem 1.5rem; }
+  .pricing { padding: 4rem 1.5rem; }
+  .ownership { padding: 4rem 1.5rem; }
+  .faq { padding: 4rem 1.5rem; }
+  .final-cta { padding: 5rem 1.5rem; }
+
+  /* Grids to single column */
   .problem-grid { grid-template-columns: 1fr; }
   .agent-features { grid-template-columns: 1fr; }
-  .compare-table { font-size: 0.65rem; }
-  .compare-table .ch, .compare-table .c { padding: 0.7rem 0.45rem; }
   .ownership-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+
+  /* Comparison table — collapse to 3 columns */
+  .ch-alt, .c-alt { display: none; }
+  .ch-others, .c-others { display: block; }
+  .compare-table {
+    grid-template-columns: 1.3fr 1fr 1fr;
+    font-size: 0.75rem;
+  }
+  .compare-table .ch, .compare-table .c { padding: 0.8rem 0.6rem; }
+
+  /* Timeline */
   .timeline-item { grid-template-columns: 40px 1fr; gap: 1rem; }
   .timeline::before { left: 19px; }
   .timeline-dot { width: 40px; height: 40px; font-size: 0.85rem; }
+
+  /* Pricing */
+  .price-box { padding: 1.75rem; }
+  .price-amount { font-size: 2.4rem; }
+
+  /* Ownership */
+  .ownership-visual { padding: 1.5rem; }
 }

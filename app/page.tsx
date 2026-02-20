@@ -254,53 +254,69 @@ export default function Home() {
           <em>every alternative</em>
         </h2>
         <div className="compare-table">
+          {/* Headers */}
           <div className="ch">{"\u00A0"}</div>
-          <div className="ch">MSP Marketing Agency</div>
-          <div className="ch">DIY AI SDR Tools</div>
-          <div className="ch">Hiring an SDR</div>
-          <div className="ch">Your AI Agent</div>
+          <div className="ch ch-alt">MSP Marketing Agency</div>
+          <div className="ch ch-alt">DIY AI SDR Tools</div>
+          <div className="ch ch-alt">Hiring an SDR</div>
+          <div className="ch ch-others">Others</div>
+          <div className="ch ch-highlight">Your AI Agent</div>
 
+          {/* Monthly cost */}
           <div className="c">Monthly cost</div>
-          <div className="c">$3,000 – $6,000</div>
-          <div className="c">$500 – $1,500</div>
-          <div className="c">$5,000 – $8,000+</div>
-          <div className="c">From $4,000/mo</div>
+          <div className="c c-alt">$3,000 – $6,000</div>
+          <div className="c c-alt">$500 – $1,500</div>
+          <div className="c c-alt">$5,000 – $8,000+</div>
+          <div className="c c-others">$500 – $8,000+</div>
+          <div className="c c-highlight">From $4,000/mo</div>
 
+          {/* What you get */}
           <div className="c">What you get</div>
-          <div className="c">Blogs &amp; SEO</div>
-          <div className="c">Software you configure</div>
-          <div className="c">1 person, limited hours</div>
-          <div className="c">Done-for-you outbound</div>
+          <div className="c c-alt">Blogs &amp; SEO</div>
+          <div className="c c-alt">Software you configure</div>
+          <div className="c c-alt">1 person, limited hours</div>
+          <div className="c c-others">Blogs, software, or 1 hire</div>
+          <div className="c c-highlight">Done-for-you outbound</div>
 
+          {/* Who does the work */}
           <div className="c">Who does the work</div>
-          <div className="c">Their team</div>
-          <div className="c">You</div>
-          <div className="c">Your hire</div>
-          <div className="c">Your AI agent</div>
+          <div className="c c-alt">Their team</div>
+          <div className="c c-alt">You</div>
+          <div className="c c-alt">Your hire</div>
+          <div className="c c-others">You or your hire</div>
+          <div className="c c-highlight">Your AI agent</div>
 
+          {/* Meetings booked */}
           <div className="c">Meetings booked</div>
-          <div className="c">Not their job</div>
-          <div className="c">If you configure it right</div>
-          <div className="c">5-10/month (if ramped)</div>
-          <div className="c">10-15+/month</div>
+          <div className="c c-alt">Not their job</div>
+          <div className="c c-alt">If you configure it right</div>
+          <div className="c c-alt">5-10/month (if ramped)</div>
+          <div className="c c-others">0 – 10/mo (maybe)</div>
+          <div className="c c-highlight">10-15+/month</div>
 
+          {/* Personalization */}
           <div className="c">Personalization</div>
-          <div className="c">Templated for all MSPs</div>
-          <div className="c">Depends on your effort</div>
-          <div className="c">Limited by time</div>
-          <div className="c">Every single message</div>
+          <div className="c c-alt">Templated for all MSPs</div>
+          <div className="c c-alt">Depends on your effort</div>
+          <div className="c c-alt">Limited by time</div>
+          <div className="c c-others">Limited or templated</div>
+          <div className="c c-highlight">Every single message</div>
 
+          {/* Time to results */}
           <div className="c">Time to results</div>
-          <div className="c">3-6 months (SEO)</div>
-          <div className="c">Weeks (if you know how)</div>
-          <div className="c">3-6 months (ramp)</div>
-          <div className="c">Meetings within weeks</div>
+          <div className="c c-alt">3-6 months (SEO)</div>
+          <div className="c c-alt">Weeks (if you know how)</div>
+          <div className="c c-alt">3-6 months (ramp)</div>
+          <div className="c c-others">3 – 6 months</div>
+          <div className="c c-highlight">Meetings within weeks</div>
 
-          <div className="c">Your time required</div>
-          <div className="c">Low</div>
-          <div className="c">High</div>
-          <div className="c">Medium (managing)</div>
-          <div className="c">None — take meetings</div>
+          {/* Your time required */}
+          <div className="c c-last-row">Your time required</div>
+          <div className="c c-alt c-last-row">Low</div>
+          <div className="c c-alt c-last-row">High</div>
+          <div className="c c-alt c-last-row">Medium (managing)</div>
+          <div className="c c-others c-last-row">Low to high</div>
+          <div className="c c-highlight c-last-row">None — take meetings</div>
         </div>
       </section>
 
