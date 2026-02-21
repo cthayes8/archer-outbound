@@ -22,9 +22,6 @@ export default function Home() {
           <span className="logo-badge">For MSPs</span>
         </div>
         <div className="nav-links">
-          <a href="#how">How It Works</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#faq">FAQ</a>
           <a href="#book" className="nav-cta">
             Book a Demo
           </a>
@@ -288,7 +285,7 @@ export default function Home() {
           <div className="c c-alt">$500 – $1,500</div>
           <div className="c c-alt">$5,000 – $8,000+</div>
           <div className="c c-others">$500 – $8,000+</div>
-          <div className="c c-highlight">From $4,000/mo</div>
+          <div className="c c-highlight">Custom</div>
 
           {/* What you get */}
           <div className="c">What you get</div>
@@ -338,66 +335,6 @@ export default function Home() {
           <div className="c c-others c-last-row">Low to high</div>
           <div className="c c-highlight c-last-row">None — take meetings</div>
         </div>
-      </section>
-
-      {/* PRICING */}
-      <section className="pricing" id="pricing">
-        <div className="section-tag">Pricing</div>
-        <h2 className="section-heading">
-          Simple pricing.
-          <br />
-          <em>Meetings on your calendar.</em>
-        </h2>
-        <p className="section-sub" style={{ margin: "0 auto" }}>
-          You&apos;re already spending $3-5K/month on marketing that
-          doesn&apos;t book meetings. Here&apos;s what happens when that budget
-          actually works.
-        </p>
-        <div className="price-box">
-          <div className="price-label">AI Outbound SDR</div>
-          <div className="price-amount">$4,000</div>
-          <div className="price-period">
-            per month + one-time $2,500 setup
-          </div>
-          <p className="price-desc">
-            The output of an $80K/year SDR hire at a fraction of the cost. Your
-            AI agent prospects, personalizes outreach, handles follow-up, and
-            books qualified meetings — every day, without taking a day off.
-          </p>
-          <ul className="price-includes">
-            <li>
-              Finds companies in your territory that match your ICP
-            </li>
-            <li>
-              Personalized email outreach from a branded address at your domain
-            </li>
-            <li>
-              LinkedIn outreach to connect with decision-makers
-            </li>
-            <li>
-              Reply handling, follow-up, and objection management
-            </li>
-            <li>
-              Qualified meetings booked directly on your calendar
-            </li>
-            <li>
-              Weekly reporting on outreach, replies, and pipeline
-            </li>
-            <li>
-              Ongoing optimization of targeting and messaging
-            </li>
-            <li>
-              Dedicated email infrastructure setup and deliverability management
-            </li>
-          </ul>
-          <a href="#book" className="price-cta">
-            Book a Demo
-          </a>
-        </div>
-        <p className="pricing-note">
-          6-month minimum commitment. Month-to-month available after initial
-          term.
-        </p>
       </section>
 
       {/* OWNERSHIP */}

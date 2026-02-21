@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "Who sends the emails?",
     answer:
-      "Outreach goes from a branded email address at your domain \u2014 a dedicated team member name like sarah@yourmsp.com. We handle the entire sending infrastructure: domain setup, warm-up, reputation management, and deliverability monitoring. Everything lands in the inbox.",
+      "Outreach goes from a branded email address at your domain \u2014 a dedicated team member name like sarah@yourmsp.com. If you\u2019d prefer not to use your primary domain, we can set up a similar subdomain or lookalike domain instead. Either way, we handle the entire sending infrastructure: domain setup, warm-up, reputation management, and deliverability monitoring. Everything lands in the inbox.",
   },
   {
     question: "How quickly will I see results?",
