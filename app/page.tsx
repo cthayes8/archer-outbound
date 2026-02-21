@@ -1,8 +1,86 @@
 import FAQ from "./faq";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      name: "Archer Outbound",
+      url: "https://archer-outbound.com",
+      description:
+        "We build dedicated AI sales agents for managed service providers. Your agent finds prospects in your territory, sends personalized outreach, and books qualified meetings on your calendar.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How is this different from MSP marketing agencies?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "They create templated content shared across hundreds of MSPs and hope someone Googles \u201cIT support near me.\u201d We build you an AI agent that actively finds the specific businesses in your territory that need managed IT and books meetings with them. It\u2019s outbound prospecting, not passive inbound \u2014 and everything is custom to your MSP.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why not just buy an AI SDR tool and do it myself?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "You could \u2014 the same way your clients could manage their own IT instead of hiring you. Tools like Apollo or AiSDR require you to configure targeting, write sequences, manage deliverability, warm domains, monitor reply quality, and optimize constantly. We do all of that for you. You get the results without the learning curve or the time investment.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Will the outreach sound like spam?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The opposite. We send fewer, more targeted messages \u2014 not mass blasts. Every email is personalized to the specific prospect\u2019s business, industry, and pain points. Your agent writes in your brand voice, referencing real context about each company. The goal is quality conversations, not volume.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is my data secure?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Your agent runs on fully isolated infrastructure \u2014 your data never touches another client\u2019s environment. And our integration is minimal: we only need a dedicated sending email address and your calendar booking link. No CRM access, no API keys, no risk to your clients\u2019 data.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Who sends the emails?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Outreach goes from a branded email address at your domain \u2014 a dedicated team member name like sarah@yourmsp.com. If you\u2019d prefer not to use your primary domain, we can set up a similar subdomain or lookalike domain instead. Either way, we handle the entire sending infrastructure: domain setup, warm-up, reputation management, and deliverability monitoring. Everything lands in the inbox.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How quickly will I see results?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Your agent goes live in 3 weeks. Most clients see initial meetings within the first month as we calibrate targeting and messaging. By month 2-3, the system is fully optimized and delivering consistent pipeline. We set realistic expectations \u2014 not inflated promises.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What\u2019s the commitment?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "6-month minimum. Outbound takes time to calibrate, and we invest significant resources building your custom agent. The MSPs who see the best results give the system time to compound. Month-to-month is available after the initial term.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* NAV */}
       <nav>
         <div className="logo">

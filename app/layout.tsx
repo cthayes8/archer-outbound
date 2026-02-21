@@ -16,9 +16,32 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://archer-outbound.com"),
   title: "Archer Outbound — AI Sales Agents Built Exclusively for MSPs",
   description:
     "We build dedicated AI sales agents for managed service providers. Your agent finds prospects in your territory, sends personalized outreach, and books qualified meetings on your calendar.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Archer Outbound — AI Sales Agents Built Exclusively for MSPs",
+    description:
+      "We build dedicated AI sales agents for managed service providers. Your agent finds prospects in your territory, sends personalized outreach, and books qualified meetings on your calendar.",
+    url: "https://archer-outbound.com",
+    siteName: "Archer Outbound",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Archer Outbound — AI Sales Agents Built Exclusively for MSPs",
+    description:
+      "We build dedicated AI sales agents for managed service providers. Your agent finds prospects in your territory, sends personalized outreach, and books qualified meetings on your calendar.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
